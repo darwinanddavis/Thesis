@@ -15,5 +15,3 @@ File extensions:
 .csv  
 .docx  
 
-20171014  
-Created final Appendix A .Rmd file in repo
