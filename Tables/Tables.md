@@ -1,9 +1,10 @@
+# Tables
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
 </script>
 
-# Tables
+\n  
 
 Table 1. Literature synthesised for the review showing the relationship between the time and space scales that current individual-based models on animal movement operate and the corresponding time and space scale referenced in Figure 1. The table also details the purpose of the model, the species considered, the time and space scale of the simulation/study site, and the extent each model considers energy use at the individual level.  
 
