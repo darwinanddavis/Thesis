@@ -8,12 +8,12 @@
 
 AppendixA for Matthew Malishev thesis
 
-File extensions:
-.Rmd
-.pdf
-.html
-.csv
-.docx
+### File extensions:    
+.Rmd  
+.pdf  
+.html  
+.csv  
+.docx  
 
-20171014
+20171014  
 Created final Appendix A .Rmd file in repo
