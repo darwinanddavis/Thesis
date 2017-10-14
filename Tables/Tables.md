@@ -1,0 +1,21 @@
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+</script>
+
+# Tables
+
+Table 1. Literature synthesised for the review showing the relationship between the time and space scales that current individual-based models on animal movement operate and the corresponding time and space scale referenced in Figure 1. The table also details the purpose of the model, the species considered, the time and space scale of the simulation/study site, and the extent each model considers energy use at the individual level.  
+
+Table 2. Primary metabolic processes occurring at each model time step of an hypothetical simulated animal moving in space and time as it interacts with its environment. The internal energetic state of the animal is governed by the DEB theory equations, which drives its movement decisions in response to direct and indirect movement costs. 
+
+Table 3. Individual variables and parameters of the DEB model (Kooijman 2010) parameterised for the sleepy lizard, _Tiliqua rugosa_. Parameters are estimated from available animal data (Table 6). Dimensions: --- dimensionless; _J_ Joules; _L_ structural length; _t_ time. Units: _d_ days; _cm_ centimetres. Square [*] and curly {*} parentheses denote parameters per volume and surface area, respectively; dot accents denote rates.  
+
+Table 4. Individual variables and parameters of the transient heat budget model. Dimensions: --- dimensionless; _C_ Celsius; _J_ Joules; _kg_ kilograms; _m_ metres; _s_ seconds; _t_ time; _W_ watts.  
+
+Table 5. State variables and parameters of model individuals, habitat, and microclimate. Dimensions: --- dimensionless; _C_ Celsius; _J_ Joules; _m_ metres; _s_ seconds; _t_ time; _T_ temperature; _W_ watts. As in ‘Entities, state variables, and scales’.  
+
+Table 6. Organism data for parameterising the standard Dynamic Energy Budget model of Tiliqua rugosa. Unit: _d_ days; _g_ grams; _K_ Kelvin. All data are from Kearney, M. R., Munns, S. L., Moore, D., Malishev, M. and Bull, C. M., unpublished data (http://www.bio.vu.nl/thb/deb/deblab/add_my_pet/entries_web/Tiliqua_rugosa_res.html), except life span, which is from (Snider & Bowler 1992).  
+
+Table 7. Individual variables and parameters of the DEB model (Kooijman 2010) for simulating juvenile and adult sleepy lizards, _Tiliqua rugosa_. Dimensions: --- dimensionless; _J_ Joules. Units: --- dimensionless; _cm_ centimetres; _g_ grams.  
+
