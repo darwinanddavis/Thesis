@@ -1,9 +1,10 @@
+# Figures
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
 </script>
 
-# Figures
+\n  
 
 Figure 1. Conceptual hierarchy of individual movement spanning (1) fine, (2) intermediate, and (3) coarse time and space scales. Each section (Displacement, Dispersal, Migration) represents the common processes at each scale and the width and height represent the time and space scale, respectively. The central individual unit _i_ with its internal state and dynamic energy budget DEB fluctuates with basic energy requirements, costs, and gains $(i_{DEB})$, ultimately linked to individual fitness. At each scale, thicker, coloured arrows represent emerging processes, boxes represent the end processes from movement, and plus signs denote dominant complementary behaviours or processes. 
 
@@ -41,7 +42,9 @@ Figure 17. Time simulated optimising A) adults and B) juveniles take to reach th
 
 Figure A1. Distributions of home range area (km^2^) of real animals (pink) and simulated optimising (orange) and satisficing (blue) movement strategies under (A) dense and (B) sparse resource distribution (food and shade). Insets (L–R): Home range polygons in space showing overlap of simulated satisficing (blue) and optimising (orange) movement strategies, and examples of (upper) dense and (lower) sparse resource distributions in the study site.  
 
-Figure A2. Rates of $T_b$ change (ºC 2 min^–1^) comparing (A) observed active (orange; #11885) and passive (blue; #11533) movement and (B) simulated optimising (orange) and satisficing (blue) movement for the morning hours (heating period; 06:00–12:00). (C) Observed active (orange) and passive (blue) movement and (D) simulated optimising (orange) and satisficing (blue) movement for the afternoon hours (cooling period; 12:00–18:00) throughout the breeding season. Animal graphics represent the most probable activity state of the animal (from Fig. 5).   
+Figure A2. Rates of $T_b$ change (ºC 2 min^–1^) comparing (A) observed active (orange; #11885) and passive (blue; #11533) movement and (B) simulated optimising (orange) and satisficing (blue) movement for the morning hours (heating period; 06:00–12:00). (C) Observed active (orange) and passive (blue) movement and (D) simulated optimising (orange) and satisficing (blue) movement for the afternoon hours (cooling period; 12:00–18:00) throughout the breeding season. Animal graphics represent the most probable activity state of the animal (from Fig. 5).  
+
+#####  
 
 
 
