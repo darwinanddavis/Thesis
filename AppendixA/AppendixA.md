@@ -1,13 +1,14 @@
 # Appendix A
-_^1^ Centre of Excellence for Biosecurity Risk Analysis, School of BioSciences, University of Melbourne, Parkville, Melbourne, 3010, Australia_  
-^[This Appendix is available on Github at [https://github.com/darwinanddavis/Thesis/tree/master/AppendixA](https://github.com/darwinanddavis/Thesis/tree/master/AppendixA).]
--  
+_^1^ Centre of Excellence for Biosecurity Risk Analysis, ^2^ School of BioSciences, University of Melbourne, Parkville, Melbourne, 3010, Australia_
+^[This Appendix is found at [https://doi.org/10.5281/zenodo.998145](https://doi.org/10.5281/zenodo.998145) or on Github at [https://github.com/darwinanddavis/Thesis/tree/master/AppendixA](https://github.com/darwinanddavis/Thesis/tree/master/AppendixA).]
+- _^3^ School of Biological Sciences, Flinders University, Adelaide, 5001, Australia_  
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
 </script>
 
-##### 
+#####  
+
 # Data collection
 
 All data were collected at the sleepy lizard habitat study site (139°21'E, 33°55'S) at the Bundey Bore field station in the mid-north of South Australia during the breeding season (September to December, 2009). Animal data are for the adult sleepy lizard (n = 60). Individual animals were tagged with GPS units, step counters ('waddleometers'), and skin surface temperature probes at the beginning of the breeding season and tracked throughout the season using radio telemetry. Animals were captured and GPS data downloaded every two weeks throughout the breeding season for each individual, with batteries for the units replaced when needed. GPS units reported locations every 10 minutes, waddleometers recorded step counts every 2 minutes, and temperature probes recorded skin surface temperature every 2 minutes. 
@@ -25,7 +26,7 @@ The `onelump_varenv.R` and `DEB.R` functions update the individual internal ther
 
 #####  
 ### `onelump_varenv.R`. 
-`onelump_varenv.R` available on [**Github**](https://github.com/darwinanddavis/MalishevBullKearney/blob/master/onelump_varenv.R).  
+`onelump_varenv.R` available on [**Github**](https://github.com/darwinanddavis/Thesis/blob/master/AppendixA/onelump_varenv.R).  
 
 
 ```r
@@ -280,7 +281,7 @@ onelump_varenv<-function (t = seq(1, 3600, 60), time = 0, Tc_init = 5, thresh = 
 
 #####  
 ### `DEB.R`. 
-`DEB.R` function available on [**Github**](https://github.com/darwinanddavis/MalishevBullKearney/blob/master/DEB.R).
+`DEB.R` function available on [**Github**](https://github.com/darwinanddavis/Thesis/blob/master/AppendixA/DEB.R).
 
 
 ```r
@@ -1346,7 +1347,7 @@ end
 
 #####
 # Appendix A2  
-Energy and heat budget models, including microclimate model (.R). Available on [**Github**](https://github.com/darwinanddavis/MalishevBullKearney).
+Energy and heat budget models, including microclimate model (.R). Available on [**Github**](https://github.com/darwinanddavis/Thesis/tree/master/AppendixA).
 
 ### Initial setup
 
@@ -1378,7 +1379,7 @@ library(RNetlogo); library(rJava)
 ```
 
 #### For PC and working Mac OSX
-Source `DEB.R` and `onelump_varenv.R` from [**Github**]("https://github.com/darwinanddavis/MalishevBullKearney")
+Source `DEB.R` and `onelump_varenv.R` from [**Github**]("https://github.com/darwinanddavis/Thesis/tree/master/AppendixA")
 
 ```r
 # ------------------- for PC and working Mac OSX -----------------
@@ -1387,7 +1388,7 @@ Source `DEB.R` and `onelump_varenv.R` from [**Github**]("https://github.com/darw
 install.packages(c("NicheMapR","adehabitatHR","rgeos","sp", "maptools", "raster","rworldmap","rgdal","dplyr"))
 library(NicheMapR); library(adehabitatHR); library(rgeos); library(sp); library(maptools); library(raster); library(rworldmap); library(rgdal); library(dplyr)
 
-#source DEB and heat budget models from https://github.com/darwinanddavis/MalishevBullKearney
+#source DEB and heat budget models from https://github.com/darwinanddavis/Thesis/tree/master/AppendixA
 source('DEB.R')
 source('onelump_varenv.R')
 
@@ -1397,7 +1398,7 @@ results.path<- "<dir path to store result outputs>" # set results path
 ```
 
 ### Read in microclimate data
-Source `metout`, `soil`, `shadmet`, and `shadsoil` from [**Github**]("https://github.com/darwinanddavis/MalishevBullKearney")
+Source `metout`, `soil`, `shadmet`, and `shadsoil` from [**Github**]("https://github.com/darwinanddavis/Thesis/tree/master/AppendixA")
 
 ```r
 # read in microclimate data (metout, soil, shadmet, and shadsoil)
@@ -1441,7 +1442,7 @@ VTMAX<- 35
 ```
 
 ### Read in DEB parameters
-Source `DEB_pars_Tiliqua_rugosa.csv` from [**Github**]("https://github.com/darwinanddavis/MalishevBullKearney")
+Source `DEB_pars_Tiliqua_rugosa.csv` from [**Github**]("https://github.com/darwinanddavis/Thesis/tree/master/AppendixA")
 
 ```r
 # *************************** read in DEB parameters ***************************
@@ -1494,7 +1495,7 @@ mass <- V_pres_init + V_pres_init*E_pres_init/mu_E/d_V*23.9
 
 
 ### Initialise decision-making and DEB models
-Source Netlogo model from [**Github**]("https://github.com/darwinanddavis/MalishevBullKearney")
+Source Netlogo model from [**Github**]("https://github.com/darwinanddavis/Thesis/tree/master/AppendixA")
 
 ```r
 # ********************** start NETLOGO SIMULATION  ***********************
